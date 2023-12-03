@@ -200,7 +200,7 @@ Route:: as('dashboard.')
                 });
 
                 Route::group([], function () {
-                    Route::apiResource('orders', JobOrderController::class)->only(['index', 'show']);
+                    Route::apiResource('job_orders', JobOrderController::class)->only(['index', 'show']);
                 });
 
                 /*statuses*/
